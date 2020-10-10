@@ -8,13 +8,14 @@
     "sourceMap": true,
     "target": "es2017",
     "outDir": "lib",
-    "types": ["node", "serverless", "aws-lambda"],
+    "types": ["node"],
     "noImplicitAny": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "allowJs": true
   },
   "include": ["./**/*.ts"],
+  "files": ["node_modules/aws-sdk/index.d.ts"],
   "exclude": [
     "node_modules/**/*",
     ".serverless/**/*",
