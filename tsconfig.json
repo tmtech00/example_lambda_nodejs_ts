@@ -15,7 +15,6 @@
     "allowJs": true
   },
   "include": ["./**/*.ts"],
-  "files": ["node_modules/aws-sdk/index.d.ts"],
   "exclude": [
     "node_modules/**/*",
     ".serverless/**/*",
